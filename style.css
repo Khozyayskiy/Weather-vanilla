@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 1) 100%), url(./Rain.jpg);
+    background-size: cover;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.search-button {
+    background-image: url(./search.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 8px;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-box {
+    width: 1000px;
+    margin-left: 16px;
+    padding: 8px;
+}
+
+.degrees {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.info-container {
+    display: flex;
+    color: #fff;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    color: #fff
+}
+
+.feels-like {
+    font-size: 16px;
+}
